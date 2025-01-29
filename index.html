@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotify - Imersão</title>
 </head>
+
 <body>
     <div class="sidebar">
         <nav class="sidebar-navigation">
@@ -40,7 +46,7 @@
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
-            
+
             <section class="section-playlist">
                 <div class="section-playlist-content">
                     <span class="text title">Crie sua primeira playlist</span>
@@ -64,12 +70,40 @@
         </div>
     </div>
 
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+                    </button>
+                    <button class="arrow-rigth">
+                        <img src="./src/assets/icons/small-right.png" alt="seta direita">
+                    </button>
+                </div>
+
+                <div class="header-search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input type="text" id="search_input" maxlength="800" placeholder="O que você quer ouvir?">
+                </div>
+
+                <div class="header-login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+
+            </nav>
+        </div>
+    </main>
+
     <footer>
         <div class="footer-content">
             <span class="text title">Teste o Premium de graça</span>
-            <span class="text subtitle">Inscreva-se para curtir música ilimitada e podscasts só com alguns anúncios. Não precisa de cartão de crédito.</span>
+            <span class="text subtitle">Inscreva-se para curtir música ilimitada e podscasts só com alguns anúncios. Não
+                precisa de cartão de crédito.</span>
         </div>
-            <button class="footer-button">Inscreva-se grátis</button>
+        <button class="footer-button">Inscreva-se grátis</button>
     </footer>
 </body>
+
 </html>
