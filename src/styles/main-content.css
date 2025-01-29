@@ -1,8 +1,9 @@
 .main-container{
     max-width: 80vw;
-    height: 100vh;
+    height: 100%;
     margin-left: 320px;
     margin-right: 56px;
+    margin-top: 14px;
 }
 
 .header-navigation{
@@ -86,4 +87,32 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 30px 10px 10px 10px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+
+.main-section .header-main-section{
+    padding: 20px 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-main-section .main-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.header-main-section .main-subtitle{
+    font-size: 20px;
+    font-weight: 800;
 }
